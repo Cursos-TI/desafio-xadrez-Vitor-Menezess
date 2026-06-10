@@ -1,0 +1,11 @@
+{
+  "name": "C++ Dev Environment",
+  "image": "://microsoft.com",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools-extension-pack"
+      ]
+    }
+  }
+}
