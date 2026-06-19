@@ -6,14 +6,14 @@
                 int MovimentoBispo = 1, MovimentoRainha = 1;
 
 
-// movimento da torre: ela ira ter 5 movimentos para a direita
+// movimentos da torre: ela ira ter 5 movimentos para a direita
                 printf("\n\n     ***Movimentos do Torre***\n\n");
-                for (int I = 0, M = 1; I < 5; I++, M++)
+                for (int I = 0, J = 1; J < 5; I++, J++)
                 {
-                printf("%d.º movimeto da Torre para a Direita.\n", M); // imprime a direção e quantos movimentos foram feitos
+                printf("%d.º movimeto da Torre para a Direita.\n", J); // imprime a direção e quantos movimentos foram feitos
                 }
 
- // movimento da Bispo: ela ira ter 5 movimentos para a Diagonal. porem a diagonal sera a junção de cima e direita igualando uma diagonal
+ // movimentos da Bispo: ela ira ter 5 movimentos para a Diagonal. porem a diagonal sera a junção de cima e direita igualando uma diagonal
                 printf("\n\n     ***Movimentos do Bispo***\n\n");
                 while(Bispo < 5)
                 {
@@ -22,7 +22,7 @@
                     Bispo++;
                 }
 
-// movimento da Rainha: ela ira ter 8 movimentos para a esquerda
+// movimentos da Rainha: ela ira ter 8 movimentos para a esquerda
                 printf("\n\n     ***Movimentos da Rainha***\n\n");
 
                 do
